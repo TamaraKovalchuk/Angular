@@ -6,8 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-           getTeam(){
-                return [
+           team = [
                     {
                         "id": 1,
                         "firstName": "Tamara",
@@ -49,6 +48,5 @@ export class AppComponent {
                         "lastName": "Khomenko"
                     }
                             ];
-                        }
 
 };
